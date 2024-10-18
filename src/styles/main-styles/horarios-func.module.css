@@ -1,0 +1,88 @@
+.HorariosFuncionamento{
+    background-image: url("../../../public/assets/cafeteria.jpg");
+    height: 85vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HorariosFuncionamento h2{
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    color: white;
+    letter-spacing: 8
+}
+
+.HorariosFuncionamento .lista{
+    max-width: 768px;
+    color: #acacac;
+    margin: 0 auto;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+    margin: 0 auto;
+    
+}
+
+.lista li{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista li div{
+    width: 50%;
+    height: 1px;
+    background-color: #acacac;
+    margin: 0 auto;
+}
+
+.lista p, .lista h3{
+    width: 100px ;
+    border: transparent 1px;
+}
+
+.lista li p span{
+    color: #c4a47c;
+    text-align: center;
+}
+
+@media (max-width: 400px){
+    .HorariosFuncionamento{
+        width: 400px;
+        background-image: none;
+        height: 85vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .HorariosFuncionamento h2{
+        text-align: center;
+        width: 200px;
+    }
+
+    .lista li div{
+        width: 20px;
+    }
+    
+    .lista li{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;  
+    }
+
+
+}

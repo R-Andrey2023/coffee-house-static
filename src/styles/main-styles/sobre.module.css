@@ -1,0 +1,64 @@
+.container_texto{
+    padding: 80px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+}
+
+.container_texto h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c;
+}
+
+.container_texto p{
+    max-width: 1024px;
+    padding: 0 20px;
+    margin: 0 auto;
+    font-family: "lato", sans-serif;
+    line-height: 34px;
+    letter-spacing: 1px;
+    color:#666;
+}
+
+.imagem_paralax1{
+    height: 50vh;
+    background-image: url("../../../public/assets/parallax-imagem2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.imagem_paralax2{
+    height: 100vh;
+    background-image: url("../../../public/assets/parallax-imagem3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.imagem_paralax1 h3, .imagem_paralax2 h3{
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "fraunces", sans-serif;
+    letter-spacing: 2px;
+    background-color: #604829;
+}

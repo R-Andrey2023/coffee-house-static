@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais e para tela até 400 px do cabeçalho */
+
+.cabecalho{
+  position: fixed;
+  width:100%;
+  height: 80px;
+  border: 1px solid;
+  background-color: #604829;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 400px){
+  .cabecalho{
+    position: relative;
+    width: 400px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*Aqui terminam os estilos gerais e responsivos do cabeçalho*/
+
+.secao_banner{
+  width: 100%;
+}
+
+.informacoes{
+  width: 100%;
+}
+
+
+  
